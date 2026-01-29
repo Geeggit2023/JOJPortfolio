@@ -26,19 +26,19 @@ function findImports(fileContent) {
 }
 
 function existsWithExactCase(p) {
-  const parts = path.normalize(p).split(path.sep).filter(Boolean);
-  let cur = path.isAbsolute(p) ? path.parse(p).root : '';
+  const rel = path.relative(repoRoot, p);
+  const parts = path.normalize(rel).split(path.sep).filter(Boolean);
+  let cur = repoRoot;
   for (const part of parts) {
-    const dir = cur || path.resolve('.');
     let found = false;
     try {
-      const items = fs.readdirSync(dir);
+      const items = fs.readdirSync(cur);
       for (const it of items) if (it === part) { found = true; break; }
     } catch (err) {
       return false;
     }
     if (!found) return false;
-    cur = path.join(dir, part);
+    cur = path.join(cur, part);
   }
   return true;
 }
