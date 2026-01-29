@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { observeElements } from "./utils/scrollAnimations.js";
-import Contact from "./Components/Contact.jsx";
-import Footer from "./Components/Footer.jsx";
-import Hero from "./Components/Hero.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
+import Hero from "./components/Hero.jsx";
 import Gallery from "./components/Gallery.jsx";
 import About from "./components/About.jsx";
-import Projects from "./components/project.jsx";
+import Projects from "./components/Project.jsx";
 import Skills from "./components/Skill.jsx";
 
 export default function App() {
