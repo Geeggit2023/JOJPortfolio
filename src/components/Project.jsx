@@ -77,7 +77,7 @@ export default function Projects() {
     },
     {
       id: 7,
-      title: "Corporate Brand Film",
+      title: "Launching MVVIP",
       category: "cinematography",
       description:
         "Professional corporate brand film showcasing company culture and values",
