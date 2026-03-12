@@ -82,7 +82,7 @@ export default function Projects() {
       description:
         "Professional corporate brand film showcasing company culture and values",
       image:
-        "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=500&h=300&fit=crop",
+        "/.mvvip.png",
       tech: ["4K Cinematography", "Color Grading", "Sound Design"],
       link: "#",
       year: "2024",
