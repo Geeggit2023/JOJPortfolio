@@ -81,7 +81,7 @@ export default function Projects() {
       category: "cinematography",
       description:
         "Professional corporate brand film showcasing company culture and values",
-      image: src="/mvvip.png",
+      image: "/mvvip.png",
       tech: ["4K Cinematography", "Color Grading", "Sound Design"],
       link: "#",
       year: "2024",
