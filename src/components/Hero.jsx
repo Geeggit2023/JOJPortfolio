@@ -36,8 +36,10 @@ export default function Hero() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center text-white">
           <div className="md:w-1/2 mb-8 md:mb-0" data-scroll-animate="up">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Hi, I'm John Oladepo-Jesuloba
-              and Welcome to My Portfolio!
+              Hi, I'm John Oladepo-Jesuloba              
+            </h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Welcome to My Portfolio!
             </h1>
             <div className="flex space-x-2 sm:space-x-3 items-center -mt-2 -mb-8">
               <a
