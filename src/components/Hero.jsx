@@ -37,11 +37,8 @@ export default function Hero() {
           <div className="md:w-1/2 mb-8 md:mb-0" data-scroll-animate="up">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               Hi, I'm John Oladepo-Jesuloba
+              and Welcome to My Portfolio!
             </h1>
-            <p className="text-base sm:text-lg md:text-xl mb-6">
-              A Front-end Developer and Professional Cinematographer passionate
-              about creating stunning visuals and seamless user experiences.
-            </p>
             <div className="flex space-x-2 sm:space-x-3 items-center -mt-2 -mb-8">
               <a
                 href="https://linkedin.com/in/yourprofile"
