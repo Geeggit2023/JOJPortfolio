@@ -22,7 +22,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 -mt-25 md:mb-24">
-          <h2 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+          <h2 className="text-5xl mt-14 md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
             About Me
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-6 rounded-full"></div>
